@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<addon scheme="3.0">
+    <id>changes_logs</id>
+    <version>1.0</version>
+    <priority>7100</priority>
+    <status>active</status>
+    <default_language>en</default_language>
+    
+    <compatibility>
+        <core_version>
+            <min>4.1.1</min>
+        </core_version>
+        <core_edition>
+            ULTIMATE,MULTIVENDOR
+        </core_edition>
+    </compatibility>
+
+    <queries>
+        <item>
+            CREATE TABLE IF NOT EXISTS `?:changes_logs` (
+                 `log_id` int(11) UNSIGNED NOT NULL,
+                  `order_id` int(11) NOT NULL,
+                  `user_id` int(11) NOT NULL DEFAULT 0,
+                  `timestamp` int(11) UNSIGNED NOT NULL DEFAULT 0,
+                  `old` text DEFAULT '\'\'',
+                  `new` text DEFAULT NULL
+            )
+            Engine=MyISAM DEFAULT CHARSET UTF8;        </item>
+        <item for="uninstall">DROP TABLE IF EXISTS `?:changes_logs`;</item>
+    </queries>
+</addon>

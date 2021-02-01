@@ -1,0 +1,53 @@
+msgid ""
+msgstr "Project-Id-Version: tygh\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language-Team: English\n"
+"Language: en_US"
+
+msgctxt "Addons::name::changes_logs"
+msgid "Russian Localization — Order changes log"
+msgstr "Russian Localization — Order changes log"
+
+msgctxt "Addons::description::changes_logs"
+msgid "Tracking changes in order"
+msgstr "Tracking changes in order"
+
+msgctxt "Languages::changes_logs_order_created"
+msgid "The order has been created"
+msgstr "The order has been created"
+
+msgctxt "Languages::changes_logs_status_changed"
+msgid "The status has been changed"
+msgstr "The status has been changed"
+
+msgctxt "Languages::changes_logs_order_changed"
+msgid "The order has been changed"
+msgstr "The order has been changed"
+
+msgctxt "Languages::changes_logs_order_deleted"
+msgid "The order has been removed"
+msgstr "The order has been removed"
+
+msgctxt "Languages::changes_logs_order_id"
+msgid "Order ID"
+msgstr "Order ID"
+
+msgctxt "Languages::old_status"
+msgid "Old status"
+msgstr "Old status"
+
+msgctxt "Languages::changes_logs_all_orders"
+msgid "All orders"
+msgstr "All orders"
+
+msgctxt "Languages::changes_logs"
+msgid "Changes logs"
+msgstr "Changes logs"
+
+msgctxt "Languages::changes_logs_menu_description"
+msgid "Changes logs - test task"
+msgstr "Changes logs - test task"
+
+msgctxt "Languages::all_orders"
+msgid "All orders"
+msgstr "All orders"
